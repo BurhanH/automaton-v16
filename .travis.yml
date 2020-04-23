@@ -16,6 +16,7 @@ before_install:
   - git clone --branch=master https://github.com/BurhanH/automaton-v7.git automaton-v7 
 
 script:
+- cd automaton-v7
 - pwd
 - ls -lah
 # - docker-compose --version

@@ -17,7 +17,7 @@ before_install:
   - cd automaton-v7
   - pwd
   - ls -lah
-  - sed 's/false,/true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
+  - sed -i 's/false,/true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
   - cat config.js
 
 script:

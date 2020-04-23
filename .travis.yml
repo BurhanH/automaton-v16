@@ -3,3 +3,5 @@ services:
 
 script:
 - docker-compose --version
+- docker-compose up -d
+- docker-compose down 

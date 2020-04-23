@@ -23,5 +23,6 @@ before_install:
 
 script:
 - docker-compose up -d
+- sleep 15
 - npm test
 - docker-compose down

@@ -20,7 +20,7 @@ script:
 - pwd
 - ls -lah
 - cat config.js
-- sed 's/grid: false,/grid: true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
+- sed 's/false,/true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
 - cat config.js
 # - docker-compose --version
 # - docker-compose up -d

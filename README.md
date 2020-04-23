@@ -18,7 +18,7 @@ I use Travis CI as a CI/CD service and environment, in this environment I use 2 
 - I still have no idea how to get logs (artifacts) from Travis CI
 
 ## Shema
-Under construction
+![alt text](https://github.com/BurhanH/automaton-v16/raw/master/automation-v16.png "Shema automation-v16") <br>
 
 ## Techology stack and documentation
 [Docker](https://docs.docker.com/compose/) <br>

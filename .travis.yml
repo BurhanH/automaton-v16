@@ -1,5 +1,7 @@
 services:
   - docker
+  - docker-compose
 
 script:
 - docker version
+- docker-compose --version

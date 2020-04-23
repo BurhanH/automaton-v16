@@ -1,7 +1,20 @@
+os: linux
+dist: xenial
+
+language: python
+cache: pip
+
+python:
+  - "3.7"
+
 services:
   - docker-compose
+
+# before_install:
+# 
 
 script:
 - docker-compose --version
 - docker-compose up -d
+- python3 -V
 - docker-compose down 

@@ -14,15 +14,14 @@ services:
 
 before_install:
   - git clone --branch=master https://github.com/BurhanH/automaton-v7.git automaton-v7 
+  - cd automaton-v7
+  - pwd
+  - ls -lah
+  - sed 's/false,/true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
+  - cat config.js
 
 script:
-- cd automaton-v7
-- pwd
-- ls -lah
-- cat config.js
-- sed 's/false,/true,/' /home/travis/build/BurhanH/automaton-v16/automaton-v7/config.js
-- cat config.js
 # - docker-compose --version
 # - docker-compose up -d
-# here our test
+- npm test
 # - docker-compose down 

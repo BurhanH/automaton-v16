@@ -1,22 +1,24 @@
 os: linux
 dist: xenial
 
-language: python
-cache: pip
+language: node_js
+node_js:
+  - "stable"
 
-python:
-  - "3.7"
+cache:
+  directories:
+  - node_modules
 
 services:
   - docker-compose
 
-# before_install:
-# 
+before_install:
+  - git clone --branch=master https://github.com/BurhanH/automaton-v7.git automaton-v7 
 
 script:
 - pwd
 - ls -lah
-- docker-compose --version
-- docker-compose up -d
-- python3 -V
-- docker-compose down 
+# - docker-compose --version
+# - docker-compose up -d
+# here our test
+# - docker-compose down 

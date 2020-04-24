@@ -22,7 +22,7 @@ before_install:
   # Creating a virtual Selenium Grid infrastructure with Hub and 2 browsers, Chrome and Firefox 
   - docker-compose --version
   - docker-compose up -d
-  - sleep 15 # Giving some time for Selenium Grid
+  - sleep 15 # Giving some time for Selenium Grid to up
 
 script:
   - npm test

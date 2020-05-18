@@ -5,7 +5,7 @@ Automation testing infrastructure - an example. Based on Docker and [one auto te
 [![Build Status](https://travis-ci.org/BurhanH/automaton-v16.svg?branch=master)](https://travis-ci.org/BurhanH/automaton-v16)
 
 ## Concept
-The main idea was to create a virtual infrastructure to execute automated tests.
+The main idea was to create a virtual infrastructure to execute automated tests based on Selenium.
 I use Travis CI as a CI/CD service and environment, in this environment I use 2 configuration files. One configuration file for Travis CI, this file describes steps and actions to prepare the environment. Second configuration file for Docker, Docker uses this file to create a virtual infrastructure - Selenium Grid which contains Selenium Hub and 2 nodes, one node as Firefox browser, another one as Chrome browser.
 
 ## Advantages

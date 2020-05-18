@@ -10,7 +10,7 @@ I use Travis CI as a CI/CD service and environment, in this environment I use 2 
 
 ## Advantages
 - No need to handle browser versions and drivers (Just specify a browser image in a config file)
-- You may ran tests parallel (Will decrease total runtime!)
+- You may run tests parallel (Will decrease total runtime!)
 - You may scale infrastructure easily (Tip! `docker-compose scale chrome=5` or `docker-compose scale firefox=5`, etc.)
 
 ## Disadvantages

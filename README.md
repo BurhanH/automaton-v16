@@ -20,6 +20,12 @@ I use Travis CI as a CI/CD service and environment, in this environment I use 2 
 ## Shema
 ![alt text](https://github.com/BurhanH/automaton-v16/raw/master/automation_v16.png "Shema automation-v16") <br>
 
+Step 1: The initial step. Configurations for the test infrastructure belong and exist in Repository 1. <br>
+Step 2: Actual configurations deploy in Travis CI. <br>
+Step 3: Deploy a code (an application, a service, etc.). Repository 2. <br>
+Step 4: Up the test infrustructure. <br>
+Step 5: Run tests. <br>
+
 ## Techology stack and documentation
 [Docker](https://docs.docker.com/compose/) <br>
 [GitHub](https://help.github.com/en) <br>

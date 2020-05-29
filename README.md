@@ -3,6 +3,7 @@ Automation testing infrastructure - an example. Based on Docker and [one auto te
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v16/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/BurhanH/automaton-v16.svg?branch=master)](https://travis-ci.org/BurhanH/automaton-v16)
+[![HitCount](http://hits.dwyl.com/BurhanH/automaton-v16.svg)](http://hits.dwyl.com/BurhanH/automaton-v16)
 
 ## Concept
 The main idea was to create a virtual infrastructure to execute automated tests based on Selenium.

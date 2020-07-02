@@ -19,7 +19,7 @@ I use Travis CI as a CI/CD service and environment, in this environment I use 2 
 - I still have no idea how to get logs (artifacts) from Travis CI
 
 ## Shema
-![alt text](https://github.com/BurhanH/automaton-v16/raw/master/automation_v16.png "Shema automation-v16") <br>
+![alt text](automation_v16.png "Shema automation-v16") <br>
 
 Step 1: The initial step. Configurations for the test infrastructure belong and exist in Repository 1. <br>
 Step 2: Actual configurations deploy in Travis CI. <br>

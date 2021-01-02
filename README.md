@@ -27,7 +27,7 @@ Step 3: Deploy a code (an application, a service, etc.). Repository 2. <br>
 Step 4: Up the test infrustructure. <br>
 Step 5: Run tests. <br>
 
-## Techology stack and documentation
+## Technology stack and documentation
 [Docker](https://docs.docker.com/compose/) <br>
 [GitHub](https://help.github.com/en) <br>
 [Selenium Grid](https://www.selenium.dev/documentation/en/grid/) <br>

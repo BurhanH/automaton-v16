@@ -15,7 +15,6 @@ I use Travis CI as a CI/CD service and environment, in this environment I use 2 
 
 ## Disadvantages
 - You need enough capacity to create a huge infrastructure
-- I still have no idea how to get logs (artifacts) from Travis CI
 
 ## Shema
 ![alt text](automation_v16.png "Shema automation-v16") <br>
@@ -30,4 +29,3 @@ Step 5: Run tests. <br>
 [Docker](https://docs.docker.com/compose/) <br>
 [GitHub](https://help.github.com/en) <br>
 [Selenium Grid](https://www.selenium.dev/documentation/en/grid/) <br>
-[Travis](https://docs.travis-ci.com/) <br>
